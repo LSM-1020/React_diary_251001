@@ -24,16 +24,22 @@
     padding: 10px;
     padding-bottom: 10px;
     cursor: pointer;
-
+    background-color: #ececec;
 }
 .Editor textarea {
     width: 70%;
     min-height: 200px;
     box-sizing: border-box;
     resize: vertical;
+    background-color: #ececec;
 }
 .Editor .bottom_section{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.Editor .emotion_list_wrapper {
+    display: flex;
+    gap: 2%;
+    justify-content: space-around
 }
