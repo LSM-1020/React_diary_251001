@@ -58,6 +58,18 @@ function App() {
       date: new Date().getTime(),
       content:"mock3이 쓴 일기",
       emotionId: 3
+    },
+    {
+      id:"mock4",
+      date: new Date().getTime(),
+      content:"mock4이 쓴 일기",
+      emotionId: 4
+    },
+    {
+      id:"mock5",
+      date: new Date().getTime(),
+      content:"mock5이 쓴 일기",
+      emotionId: 5
     }
   ]
 

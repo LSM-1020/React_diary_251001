@@ -25,8 +25,9 @@ const Diary =() =>{
                         rightChild={<Button text={"수정하기"} onClick={goEdit}/>}
                     />
                     <Viewer content={content} emotionId={emotionId} />
-                    <h2>Diary 페이지입니다</h2>
-                    <h3>{id}번 글</h3>
+                    {/* <h2>Diary 페이지입니다</h2>
+                    <h3>{id}번 글</h3> */}
+                    
                 </div>
             );
     } else {
