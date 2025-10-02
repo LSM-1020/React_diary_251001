@@ -64,4 +64,13 @@ export const emotionList = [
         name:"완전나쁨",
         img: getEmotionImgById(5)
     }
-]
+];
+//해당월의 시작일과 마지막일 반환
+export const getMonthRangeByDate=(date)=>{
+    const beginTimeStamp = new Date(date.getFullYear(),date.getMonth(),1).getTime();
+    const endTimeStamp = new Date(
+        date.getFullYear(),
+        date.getMonth()+1,
+        0,23,59,59).getTime(); //다음달의 0일의 23시59분59초->이번달 마지막일
+    return {beginTimeStamp,endTimeStamp};
+}
